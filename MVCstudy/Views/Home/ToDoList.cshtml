@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "ToDoList Page";
+}
+
+<div>
+    <div class="text-center my-sm-5">
+        <h1>TODO リスト</h1>
+    </div>
+    <div style="margin-bottom:20px;">
+        <div>
+            <button type="button" class="btn btn-outline-primary">タスク追加</button>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+            </th>
+            <th>
+                プロジェクト名
+            </th>
+            <th>
+                内容
+            </th>
+            <th>
+                期限日
+            </th>
+            <th>
+                登録日
+            </th>
+            <th>
+                更新日
+            </th>
+            <th>
+                編集・削除
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type="checkbox" class="form-check-input">
+            </td>
+            <td>
+                AAAプロジェクト
+            </td>
+            <td>
+                AAAシステム設計書作成
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                <button type="button" class="btn-primary">編集</button>
+                <button type="button" class="btn-secondary">削除</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" class="form-check-input">
+            </td>
+            <td>
+                BBBプロジェクト
+            </td>
+            <td>
+                BBBシステム設計書作成
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                <button type="button" class="btn-primary">編集</button>
+                <button type="button" class="btn-secondary">削除</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" class="form-check-input">
+            </td>
+            <td>
+                CCCプロジェクト
+            </td>
+            <td>
+                CCCシステム設計書作成
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                2024/xx/xx
+            </td>
+            <td>
+                <button type="button" class="btn-primary">編集</button>
+                <button type="button" class="btn-secondary">削除</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div>
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#">＜</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">＞</a>
+            </li>
+        </ul>
+    </nav>
+</div>

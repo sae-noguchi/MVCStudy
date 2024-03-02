@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K2Y3QU5IawCqqQy6L/KefE64P+4GrZa83e8rXI9/pYlfWmfN5rnYBIZ5BCkOl1m1pk3zCf06vbQBkat6lfyE8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\betac\\Documents\\MVCstudy\\MVCstudy\\MVCstudy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\betac\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}
